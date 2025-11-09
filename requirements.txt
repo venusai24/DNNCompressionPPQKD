@@ -1,0 +1,23 @@
+# PyTorch and related packages
+torch>=2.0.0,<2.5.0
+torchvision>=0.15.0,<0.20.0
+
+# Core scientific computing
+numpy>=1.24.0,<2.0.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# For reproducibility and testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Optional: For advanced visualization and analysis
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Optional: For experiment tracking
+tensorboard>=2.13.0
+
+# Optional: For model analysis
+thop>=0.1.1  # For FLOPs calculation
